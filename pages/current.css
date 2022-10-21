@@ -1,0 +1,95 @@
+    .topnav {
+    overflow: hidden;
+    background-color: #D6BB8E;
+    }
+
+    .topnav a {
+    float: left;
+    color: #000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Fuzzy Bubbles", sans-serif;
+    font-size: 20px;
+    }          
+
+    .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+    }
+
+    .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+    }
+
+    .button {
+      background-color: #C2AE9C;
+      border: none;
+      color: black;
+      padding: 14px 16px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      margin: 4px 2px;
+      cursor: pointer;
+      border-radius: 20px;
+      }
+  
+      .button:hover {
+      background-color: #C2AE9C;
+      }
+
+    body {
+      background-image: url(/pics/neutral_background.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .button {
+      background-color: #C2AE9C;
+      border: none;
+      color: black;
+      padding: 14px 16px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      margin: 0px 50px 0px 275px;
+      cursor: pointer;
+      border-radius: 20px;
+      }
+  
+      .button:hover {
+      background-color: #C2AE9C;
+      }
+    
+    .column {
+      float: left;
+      padding: 5px;
+      width: 100%;
+    }
+    
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+
+    .legends{
+      width: 306px;
+      height: 530px;
+    }
+
+    .summary1 {
+      float: right;
+      width: 50%;
+      font-family:"Fuzzy Bubbles", sans-serif;
+      margin-top: 175px;
+      margin-right: 500px;
+    }
+
+    .padawan
+    {
+      width: 306px;
+      height: 530px;
+    }
